@@ -69,7 +69,7 @@ void remove_line() {
       memcpy(&board[i + 1][0], &board[i][0], 40);
     }
     memset(&board[0][0], 0, 10);
-    score++;
+    score+=10;
   }
 }
 
